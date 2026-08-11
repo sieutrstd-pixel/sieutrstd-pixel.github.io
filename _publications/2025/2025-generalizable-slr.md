@@ -17,6 +17,6 @@ authors:
 - Tien Do
 - Khiem Le
 - Duy-Dinh Le
-# links:
-#   Paper: https://xxx
+links:
+  Paper: https://openaccess.thecvf.com/content/ICCV2025W/MSLR/papers/Tran_Generalizable_Sign_Language_Recognition_via_Local_Temporal_Convolutions_and_Region-Aware_ICCVW_2025_paper.pdf
 ---

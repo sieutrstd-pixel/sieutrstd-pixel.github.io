@@ -18,6 +18,6 @@ authors:
 - Tien Do
 - Khiem Le
 - Duy-Dinh Le
-# links:
-#   Paper: https://xxx
+links:
+  Paper: https://openaccess.thecvf.com/content/ICCV2025W/MSLR/papers/Tran_Region-Aware_Pose_Modeling_and_Permutation_Decoding_for_Signer-Independent_Sign_Language_ICCVW_2025_paper.pdf
 ---

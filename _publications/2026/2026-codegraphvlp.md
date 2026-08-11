@@ -1,6 +1,6 @@
 ---
 title:          "CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models"
-date:           2026-02-01 00:01:00 +0700    # TODO: sửa cho đúng ngày, ngày này chỉ dùng để sắp xếp
+date:           2026-04-28 00:01:00 +0700    # arXiv 2604 = tháng 4/2026; ngày chỉ dùng để sắp xếp
 selected:       true
 pub:            "arXiv preprint"
 pub_post:       " Under review."
@@ -21,6 +21,6 @@ authors:
 - Chase Rainwater
 - Anh Nguyen
 - Ngan Le
-# links:
-#   Paper: https://arxiv.org/abs/xxxx.xxxxx
+links:
+  arXiv: https://arxiv.org/abs/2604.22238
 ---

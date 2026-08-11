@@ -17,6 +17,7 @@ authors:
 - Tien Do
 - Duy-Dinh Le
 - Thanh Duc Ngo
-# links:
-#   Paper: https://xxx
+links:
+  Paper: https://openaccess.thecvf.com/content/CVPR2024W/AICity/papers/Vo_Robust_Motorcycle_Helmet_Detection_in_Real-World_Scenarios_Using_Co-DETR_and_CVPRW_2024_paper.pdf
+  IEEE: https://ieeexplore.ieee.org/document/10678200/
 ---

@@ -18,6 +18,6 @@ authors:
 - Khiem Le
 - Tien Do
 - Thanh Duc Ngo
-# links:
-#   Paper: https://xxx
+links:
+  Paper: https://doi.org/10.1145/3628797.3629021
 ---
