@@ -1,61 +1,88 @@
-primary_name: "Your Name"
+# ============================================================
+# THÔNG TIN CÁ NHÂN — sửa file này là đổi được toàn bộ trang chủ.
+# Trường nào không dùng thì comment lại bằng dấu #.
+# ============================================================
+
+primary_name: "Sieu Tran"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Sieu Tran"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: M.S. Student in Computer Science
+- name: AICV Lab, University of Arkansas
 
-
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+email: "sieutr.std@gmail.com"    # TODO: đổi sang email @uark.edu nếu muốn dùng email trường
+github: sieutrstd-pixel
+# gscholar: xxxxxxxxxxxx         # TODO: Google Scholar ID (phần sau ?user= trong URL)
+# cv_link: /assets/cv.pdf        # TODO: bỏ file CV pdf vào assets/ rồi bỏ comment dòng này
 # linkedin: your-linked-in-id
+# twitter: your_twitter_id       # không kèm ký tự '@'
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a Master's student in Computer Science at the <strong>University of Arkansas</strong>, where I work as a
+    Graduate Research Assistant in the <strong>AICV Lab</strong>. Before joining UARK, I graduated as valedictorian
+    from the University of Information Technology, VNU-HCMC, and spent a year building production AI systems as an
+    AI Engineer at Day One Company.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research focuses on <strong>object-centric</strong> and <strong>self-supervised</strong> video understanding:
+    learning structured, temporally persistent representations of objects without human annotation. More recently I
+    have been extending these representations toward <strong>vision-language-action</strong> models for long-horizon
+    robot manipulation under partial observability.
+  </p>
+  <p>
+    I am always happy to talk about research or potential collaborations — feel free to reach out by email.
   </p>
 
+# TODO: thay bằng ảnh của bạn (file hiện tại vẫn là ảnh mẫu của template)
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+# portrait_caption: >-
+#   Chú thích dưới ảnh (tuỳ chọn).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
+- name: University of Arkansas
+  position: >-
     Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    M.S. in Computer Science &nbsp;&middot;&nbsp; CGPA 4.00/4.00
+  date: 2026 - 2027 (expected)
+- name: University of Information Technology, VNU-HCMC
+  position: >-
+    B.S. in Computer Science &nbsp;&middot;&nbsp; GPA 9.24/10.0 <br/>
+    Valedictorian (Graduation Rank 1st)
+  date: 2020 - 2024        # TODO: xác nhận lại năm bắt đầu, tôi suy ra từ năm tốt nghiệp
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: University of Arkansas — AICV Lab
+  position: Graduate Research Assistant
+  date: 2026 - present
+- name: Day One Company
+  position: Mid-Level AI Engineer
+  date: 2024 - 2025
+- name: UIT AI Lab
+  position: Undergraduate Researcher
+  date: 2021 - 2024
 
 awards:
-- name: Award Name 2
+- name: Graduate Assistantship Award, UARK
+  date: 2026
+- name: Ranked 2nd, Multimodal Sign Language Recognition Challenge, ICCV Workshop
+  date: 2025
+- name: Winner, 8th AI City Challenge, CVPR Workshop
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Valedictorian, Bachelor's degree, UIT
+  date: 2024
+- name: Second Prize, Central-Level Science and Technology Awards
+  date: 2024
+- name: 2nd Runner Up, FPT AI Challenge
+  date: 2023
+- name: Third Prize, Ho Chi Minh AI Challenge
+  date: 2023
+- name: BOSCH Activator Scholarship in Ambassador
+  date: 2023
+- name: Second Prize, UIT AI Challenge
+  date: 2022
+- name: UIT Scholarships for Outstanding Students
+  date: 2022 - 2024

@@ -1,88 +1,41 @@
-# academic-homepage
+# sieutrstd-pixel.github.io
 
-[![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)
+Trang cá nhân học thuật, chạy bằng Jekyll trên GitHub Pages.
+Site: https://sieutrstd-pixel.github.io/
 
-[![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
-[![Hits](https://hits.sh/github.com/luost26/academic-homepage.svg?view=today-total)](https://hits.sh/github.com/luost26/academic-homepage/)
-[![GitHub stars](https://img.shields.io/github/stars/luost26/academic-homepage)](https://github.com/luost26/academic-homepage)
-[![GitHub forks](https://img.shields.io/github/forks/luost26/academic-homepage)](https://github.com/luost26/academic-homepage/forks)
-<!--[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)](https://validator.nu/?doc=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)-->
+## Sửa nội dung ở đâu
 
-A GitHub Pages (Jekyll) template for personal academic website. Click [here](https://luost26.github.io/academic-homepage/) to see the demo.
+| Muốn đổi gì | Sửa file nào |
+| --- | --- |
+| Tên, chức danh, email, mạng xã hội, bio, học vấn, kinh nghiệm, giải thưởng | `_data/profile.yml` |
+| Ảnh chân dung | `assets/images/photos/portrait.jpg` |
+| Danh sách tác giả (in đậm tên mình, link tới trang người khác) | `_data/authors.yml` |
+| Các mục hiện trên trang chủ, chữ ở footer | `_data/display.yml` |
+| Menu điều hướng | `_data/navigation.yml` |
+| Thêm bài báo | tạo file mới trong `_publications/<năm>/`, xem mẫu `_publications/2026/_TEMPLATE.md` |
+| Thêm tin tức | tạo file mới trong `_news/`, xem mẫu `_news/_TEMPLATE.md` |
 
-## User Community
+Các file `_TEMPLATE.md` có `published: false` nên không hiển thị trên site — chúng chỉ để tham khảo format.
 
-[🏡](https://luost.me/)
-[:star:](https://cch1999.github.io/)
-[:star:](https://kyrrego.github.io/)
-[:star:](https://ced3-han.github.io/)
-[:star:](https://lihengchen.com/)
-[:star:](https://hpwang-whu.github.io/)
-[:star:](https://zhang-yingyi.github.io/)
-[:star:](https://wby24.github.io/)
-[:star:](https://pengfeixu.com/)
-[:star:](https://boqiuphd.github.io/)
-[:star:](https://www.huabing.li/)
-[:star:](https://xiecuiying.github.io/)
-[:star:](https://hannyang.github.io/)
-[:star:](https://king-play.github.io/)
-[🤖](https://andrewcwlee.github.io)
-[:star:](https://laiyao1.github.io)
-[🌜](https://tmsultan.github.io)
-[🚀](https://zaxguo.github.io)
-[:gemini:](https://hongyang-du.github.io)
-[:star:](https://thuanz123.github.io)
-[🧬](https://gdalba.github.io/)
-[:star:](https://yhhan.com/)
-[🌔](https://chen-huaneng.github.io/academic)
-[:star:](https://jwklee.github.io/)
-[😼](https://onethousandwu.com/)
-[🔬](https://kwen-chen.github.io/)
-[🧑‍🔬](https://shengxiang-lin.github.io/)
-[🗣️](https://henry-h22.github.io/)
+## Chạy thử ở máy
 
-:hugs: Feel free to tell us if you are using this template for your website by creating an issue [here](https://github.com/luost26/academic-homepage/issues/new?assignees=&labels=&projects=&template=user-report.md&title=I+am+using+this+template%21).
+Cần Ruby + Bundler ([RubyInstaller for Windows](https://rubyinstaller.org/), chọn bản có Devkit):
 
-### Acknowledgements
+```bash
+bundle install
+```
 
-The improvements of this template have been inspired by the customizations and feedbacks from the following users:
-- 😼 [onethousandwu.com](https://onethousandwu.com/): increased corner radius [[Repo]](https://github.com/oneThousand1000/oneThousand1000.github.io)
-- :star: [shiwonkim.github.io](https://shiwonkim.github.io/): two-column main page layout [[Repo]](https://github.com/shiwonkim/shiwonkim.github.io)
-- :star: [yqxie99.github.io](https://yqxie99.github.io/): blog feature [[Repo]](https://github.com/YQXie99/YQXie99.github.io/tree/feat/add_blog_page)
-- :star: [kwen-chen.github.io](https://kwen-chen.github.io/): blog feature [[Repo]](https://github.com/Kwen-Chen/Kwen-Chen.github.io)
+```bash
+bundle exec jekyll serve
+```
 
-## Need Help?
+Rồi mở http://localhost:4000
 
-If you run into **any** issues while using this template, or have suggestions for improvements, please don't hesitate to create an issue [here](https://github.com/luost26/academic-homepage/issues/new).
+## Deploy
 
-### FAQs
+Push lên nhánh `main` của repo `sieutrstd-pixel.github.io`, sau đó bật GitHub Pages trong
+Settings → Pages → Source: `Deploy from a branch` → `main` / `(root)`.
 
-- [Need blogging feature?](https://github.com/luost26/academic-homepage/issues/13#issuecomment-2646371324)
-- [How to show citation count for papers?](https://github.com/luost26/academic-homepage/issues/29#issuecomment-3222496187)
+## Credit
 
-
-## Getting Started
-
-1. First, click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
-
-### Running Locally (Debug & Preview)
-
-2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
-
-3. Clone your forked repository to your local machine.
-
-4. Run the following command in the root directory of the repository:
-
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-5. Browse to the displayed URL to see the website.
-
-
-### Deploying to GitHub Pages
-
-2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-
-3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
-
+Dựa trên template [academic-homepage](https://github.com/luost26/academic-homepage) của Shitong Luo (MIT License).

@@ -1,22 +1,19 @@
-"Your Name":
+# ============================================================
+# Danh sách tác giả dùng trong _publications/*.md
+# Key ở đây phải khớp chính xác với tên ghi trong trường `authors` của bài báo.
+#
+#   bold: true   -> in đậm (dùng cho chính bạn)
+#   url:         -> tên sẽ thành liên kết tới trang cá nhân của tác giả đó
+#   name:        -> tên hiển thị, dùng khi cần phân biệt hai người trùng tên
+#
+# Tác giả không khai báo ở đây vẫn hiển thị bình thường, chỉ là không có link.
+# Dấu * (đồng tác giả chính) và # (tác giả liên hệ) ở cuối tên trong file publication
+# sẽ được cắt bỏ trước khi tra key, nên KHÔNG cần khai báo "Sieu Tran*" riêng.
+# ============================================================
+
+"Sieu Tran":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
-
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
-
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
-
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+# Muốn tên đồng tác giả thành link tới trang cá nhân của họ thì thêm như sau:
+# "Ngan Le":
+#   url: https://example.com/
