@@ -23,9 +23,9 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am a Master's student in Computer Science at the <strong>University of Arkansas</strong>, where I work as a
-    Graduate Research Assistant in the <strong>AICV Lab</strong>. Before joining UARK, I graduated as valedictorian
-    from the University of Information Technology, VNU-HCMC, and spent a year building production AI systems as an
-    AI Engineer at Day One Company.
+    Graduate Research Assistant in the <strong>AICV Lab</strong>. Before joining UARK, I graduated as
+    <strong>valedictorian</strong> from Viet Nam National University Ho Chi Minh City (VNU-HCMC), and spent a year
+    building production AI systems as an AI Engineer at Day One Company.
   </p>
   <p>
     My research centers on <strong>object-centric representation learning</strong>: recovering, <strong>without
@@ -52,8 +52,9 @@ education:
     Department of Electrical Engineering and Computer Science <br/>
     M.S. in Computer Science &nbsp;&middot;&nbsp; CGPA 4.00/4.00
   date: 2026 - 2027 (expected)
-- name: University of Information Technology, VNU-HCMC
+- name: Viet Nam National University Ho Chi Minh City (VNU-HCMC)
   position: >-
+    University of Information Technology (UIT) <br/>
     B.S. in Computer Science &nbsp;&middot;&nbsp; GPA 9.24/10.0 <br/>
     Valedictorian (Graduation Rank 1st)
   date: 2021 - 2024
