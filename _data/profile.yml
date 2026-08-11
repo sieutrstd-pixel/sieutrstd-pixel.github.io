@@ -28,13 +28,17 @@ short_bio: >-
     AI Engineer at Day One Company.
   </p>
   <p>
-    My research focuses on <strong>object-centric</strong> and <strong>self-supervised</strong> video understanding:
-    learning structured, temporally persistent representations of objects without human annotation. More recently I
-    have been extending these representations toward <strong>vision-language-action</strong> models for long-horizon
-    robot manipulation under partial observability.
+    My research centers on <strong>object-centric representation learning</strong>: recovering, <strong>without
+    supervision</strong>, the decomposition of a scene into entities that persist when they leave view, carry
+    properties, and act on one another. I want to carry that decomposition into <strong>world models</strong> and
+    <strong>robot learning</strong> — entity states rolled forward so an agent can weigh the consequences of an
+    action before taking it, and dynamics composed from interactions rather than one opaque transition.
   </p>
   <p>
-    I am always happy to talk about research or potential collaborations — feel free to reach out by email.
+    <strong>
+      I am always happy to talk about research or potential collaborations — feel free to reach out by
+      <a href="mailto:stran5@uark.edu">email</a>.
+    </strong>
   </p>
 
 # TODO: thay bằng ảnh của bạn (file hiện tại vẫn là ảnh mẫu của template)
