@@ -11,7 +11,7 @@ positions:
 - name: M.S. Student in Computer Science
 - name: AICV Lab, University of Arkansas
 
-email: "sieutr.std@gmail.com"    # TODO: đổi sang email @uark.edu nếu muốn dùng email trường
+email: "stran5@uark.edu"
 github: sieutrstd-pixel
 gscholar: buyfW7cAAAAJ
 linkedin: sieutran102
@@ -52,7 +52,7 @@ education:
   position: >-
     B.S. in Computer Science &nbsp;&middot;&nbsp; GPA 9.24/10.0 <br/>
     Valedictorian (Graduation Rank 1st)
-  date: 2020 - 2024        # TODO: xác nhận lại năm bắt đầu, tôi suy ra từ năm tốt nghiệp
+  date: 2021 - 2024
 
 experience:
 - name: University of Arkansas — AICV Lab

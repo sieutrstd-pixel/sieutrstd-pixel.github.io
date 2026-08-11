@@ -5,6 +5,7 @@ selected:       true
 pub:            "arXiv preprint"
 pub_post:       " Under review."
 pub_date:       "2026"
+cover:          /assets/images/covers/codegraphvlp.png
 abstract: >-
   A hierarchical vision-language-action framework that pairs a persistent semantic-graph state with a synthesized
   code-based planner, targeting non-Markovian long-horizon robot manipulation under partial observability.

@@ -5,6 +5,7 @@ selected:       true
 pub:            "IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)"
 pub_date:       "2025"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">2nd Place, MSLR Challenge</span>'
+cover:          /assets/images/covers/region-aware-pose.png
 abstract: >-
   Region-aware pose encodings combined with a permutation decoding scheme that bridges the domain gap across
   individual signers, targeting signer-independent sign language recognition.
