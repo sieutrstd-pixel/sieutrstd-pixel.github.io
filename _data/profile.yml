@@ -24,15 +24,17 @@ short_bio: >-
   <p>
     I am a Master's student in Computer Science at the <strong>University of Arkansas</strong>, where I work as a
     Graduate Research Assistant in the <strong>AICV Lab</strong>. Before joining UARK, I graduated as
-    <strong>valedictorian</strong> from Vietnam National University Ho Chi Minh City (VNU-HCMC), and spent a year
+    <strong>valedictorian</strong> from Vietnam National University Ho Chi Minh City (VNU-HCMC) and spent a year
     building production AI systems as an AI Engineer at Day One Company.
   </p>
   <p>
-    My research centers on <strong>object-centric representation learning</strong>: recovering, <strong>without
-    supervision</strong>, the decomposition of a scene into entities that persist when they leave view, carry
-    properties, and act on one another. I want to carry that decomposition into <strong>world models</strong> and
-    <strong>robot learning</strong> — entity states rolled forward so an agent can weigh the consequences of an
-    action before taking it, and dynamics composed from interactions rather than one opaque transition.
+    My research focuses on <strong>structured and predictive representation learning for dynamic environments</strong>.
+    I am particularly interested in how learning systems can discover, without dense supervision,
+    <strong>persistent entities, temporal structure, and task-relevant state</strong> from visual experience.
+    My current work spans <strong>object-centric video learning, self-supervised learning, and robot perception</strong>,
+    with the broader goal of developing <strong>world models</strong> whose latent representations capture what should
+    persist, what should change, and what should be predicted to support reasoning, planning, and long-horizon
+    decision making.
   </p>
   <p>
     <strong>
