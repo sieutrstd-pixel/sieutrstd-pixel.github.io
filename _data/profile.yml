@@ -28,13 +28,11 @@ short_bio: >-
     building production AI systems as an AI Engineer at Day One Company.
   </p>
   <p>
-    My research focuses on <strong>structured and predictive representation learning for dynamic environments</strong>.
-    I am particularly interested in how learning systems can discover, without dense supervision,
-    <strong>persistent entities, temporal structure, and task-relevant state</strong> from visual experience.
-    My current work spans <strong>object-centric video learning, self-supervised learning, and robot perception</strong>,
-    with the broader goal of developing <strong>world models</strong> whose latent representations capture what should
-    persist, what should change, and what should be predicted to support reasoning, planning, and long-horizon
-    decision making.
+    My research focuses on <strong>structured 3D scene representations and world models for embodied agents</strong>
+    in dynamic and partially observable environments. I am particularly interested in
+    <strong>object-centric and relational representations</strong> that maintain persistent state through occlusion
+    and change, capture the geometry and physical relationships between objects, and support prediction, reasoning,
+    and long-horizon decision making.
   </p>
   <p>
     <strong>
