@@ -19,7 +19,7 @@ cv_link: /assets/Sieu_Tran_CV.pdf
 # twitter: your_twitter_id       # không kèm ký tự '@'
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
     I am a Master's student in Computer Science at the <strong>University of Arkansas</strong>, where I work as a
