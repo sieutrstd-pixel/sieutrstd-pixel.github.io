@@ -5,6 +5,7 @@ selected:       false
 pub:            "Advances in Neural Information Processing Systems (NeurIPS)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Accepted</span>'
+cover:          /assets/images/covers/drivespatial.png
 abstract: >-
   A benchmark of 15.6K human-verified QA pairs across 20 tasks drawn from five autonomous-driving datasets, probing
   scene construction, multi-view relational understanding, temporal reasoning, and generalization. The strongest of

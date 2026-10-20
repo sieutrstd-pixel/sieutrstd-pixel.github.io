@@ -5,6 +5,7 @@ selected:       false
 pub:            "Advances in Neural Information Processing Systems (NeurIPS)"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Accepted</span>'
+cover:          /assets/images/covers/omnispace.png
 abstract: >-
   A plug-and-play approach that gives driving MLLMs geometric spatial reasoning from 2D camera views alone, with no
   auxiliary 3D model at inference, combining camera pose injection, multi-view epipolar attention, and 3D geometric
